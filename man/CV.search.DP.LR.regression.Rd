@@ -17,7 +17,7 @@ CV.search.DP.LR.regression(
 \arguments{
 \item{y}{A \code{numeric} vector of response variable.}
 
-\item{X}{A \code{numeric} matrix of covariates with horizontal axis being time.}
+\item{X}{A \code{numeric} matrix of covariates with vertical axis being time.}
 
 \item{gamma_set}{A \code{numeric} vector of candidate tuning parameter associated with the l0 penalty.}
 
@@ -25,7 +25,7 @@ CV.search.DP.LR.regression(
 
 \item{zeta_set}{A \code{numeric} vector of candidate tuning parameter for the group lasso.}
 
-\item{delta}{A strictly \code{integer} scalar of minimum spacing.}
+\item{delta}{A strictly positive \code{integer} scalar of minimum spacing.}
 
 \item{eps}{A \code{numeric} scalar of precision level for convergence of lasso.}
 }
